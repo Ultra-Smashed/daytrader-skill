@@ -103,7 +103,7 @@ class Repo(unittest.TestCase):
         with open(os.path.join(ROOT, "README.md"), encoding="utf-8") as fh:
             readme = " ".join(fh.read().split())
         self.assertTrue(readme.startswith("# Daytrader-Skill"))
-        for line in ("Keine Anlageberatung", "Paper", "Abgeltungsteuer", "github.com/Jakeschincariol/day-trader-skill"):
+        for line in ("Keine Anlageberatung", "Paper", "Abgeltungsteuer", "github.com/Ultra-Smashed/daytrader-skill"):
             self.assertIn(line, readme)
         for s in SKILLS:
             self.assertIn("/" + s, readme, s)

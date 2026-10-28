@@ -16,7 +16,7 @@ Kostenlos, MIT-Lizenz, ohne Anmeldung, ohne API-Schlüssel. Die Tools sind reine
 
 Kein Trade geht raus, bevor du „ja“ sagst. Nichts in diesem Paket platziert eine Order von sich aus.
 
-Dies ist die deutsche Fassung von [github.com/Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) von Jake Schincariol, umgebaut für deutsche Nutzer: XETRA als Standardmarkt, Euro, deutsche Zeiten und Feiertage, Gebühren und Wechselkurse, Neobroker ohne API, Directors' Dealings statt des US-Kongress-Trackers und deutsches Steuerrecht.
+Gebaut für deutsche Nutzer: XETRA als Standardmarkt, Euro, deutsche Zeiten und Feiertage, Gebühren und Wechselkurse, Neobroker ohne API, Directors' Dealings statt des US-Kongress-Trackers und deutsches Steuerrecht.
 
 ## Installation
 
@@ -181,4 +181,4 @@ tests/                       unittest-Suite und Offline-Fixtures
 .claude-plugin/              plugin.json, marketplace.json
 ```
 
-MIT-Lizenz. Original von [Jake Schincariol](https://opusjake.ai) ([day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill)), deutsche Fassung von [Christopher Thanisch](https://thanisch.co).
+MIT-Lizenz, siehe [LICENSE](LICENSE). Von [Christopher Thanisch](https://thanisch.co).
