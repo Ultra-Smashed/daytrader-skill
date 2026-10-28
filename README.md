@@ -16,7 +16,7 @@ Kostenlos, MIT-Lizenz, ohne Anmeldung, ohne API-Schlüssel. Die Tools sind reine
 
 Kein Trade geht raus, bevor du „ja“ sagst. Nichts in diesem Paket platziert eine Order von sich aus.
 
-Gebaut für deutsche Nutzer: XETRA als Standardmarkt, Euro, deutsche Zeiten und Feiertage, Gebühren und Wechselkurse, Neobroker ohne API, Directors' Dealings statt des US-Kongress-Trackers und deutsches Steuerrecht.
+Gebaut für deutsche Nutzer: XETRA als Standardmarkt, Euro, deutsche Zeiten und Feiertage, Gebühren und Wechselkurse, Neobroker ohne API, Directors' Dealings der BaFin und deutsches Steuerrecht.
 
 ## Installation
 
