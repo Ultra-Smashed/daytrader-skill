@@ -1,0 +1,23 @@
+{
+  "created_by": "test-beispiel",
+  "note": "Beispielplan aus echten Kursen, kein dt-ausstieg-Signal: SAP.DE 5-Minuten-Kerzen vom 27.10.2026 (Yahoo, aufgezeichnet am 28.10.2026). Opening Range 09:00 bis 09:15 Uhr: Hoch 214.75, Tief 211.70. Die Kerze 09:15 schließt um 09:20 bei 212.95. Stop am Range-Tief, Ziel 1R.",
+  "symbol": "SAP.DE",
+  "side": "buy",
+  "date": "2026-10-27",
+  "market": "xetra",
+  "currency": "EUR",
+  "setup": "orb",
+  "entry": 212.95,
+  "entry_time": "09:20",
+  "interval": "5m",
+  "opening_range": {"high": 214.75, "low": 211.70, "minutes": 15},
+  "stop": 211.70,
+  "stop_rule": "or_low",
+  "stop_label": "Tief der Opening Range",
+  "target": 214.20,
+  "target_r": 1.0,
+  "target_label": "1R (einmal das Risiko)",
+  "risk_per_share": 1.25,
+  "reward_risk": 1.0,
+  "flat_by": "17:25"
+}

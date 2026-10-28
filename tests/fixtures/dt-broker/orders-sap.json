@@ -1,0 +1,42 @@
+{
+  "created_by": "dt-budget",
+  "created_at": "2026-10-28T09:15:00Z",
+  "status": "proposed",
+  "paper": true,
+  "account_currency": "EUR",
+  "hinweis": "BEISPIELPREISE für Tests: Einstieg, Stop und Ziel sind ausgedacht, keine aufgezeichneten Kurse und keine Empfehlung. ISIN und Name von SAP stammen aus der Deutsche-Börse-Liste (t7-xetr-allTradableInstruments.csv, Stand 28.10.2026).",
+  "note": "Nur Vorschläge. Nichts wird platziert, bevor dt-risiko jede Order freigibt und du im Chat „ja“ dazu sagst.",
+  "source": "Testdaten (SAP.DE orb 2026-10-28, Beispielpreise)",
+  "orders": [
+    {
+      "symbol": "SAP.DE",
+      "name": "SAP SE",
+      "isin": "DE0007164600",
+      "side": "buy",
+      "qty": "17",
+      "type": "market",
+      "time_in_force": "day",
+      "order_class": "bracket",
+      "take_profit_limit_price": "214.90",
+      "stop_loss_stop_price": "209.50",
+      "why": "Beispiel: Opening-Range-Ausbruch bei SAP.DE, 17 Stück, begrenzt durch die Positionsgrenze (75 % von 5.000 €)",
+      "plan": {
+        "entry": 211.20,
+        "stop": 209.50,
+        "target": 214.90,
+        "risk_per_share": 1.70,
+        "max_loss": 32.70,
+        "setup": "orb",
+        "entry_time": "10:15",
+        "flat_by": "17:25",
+        "market": "xetra",
+        "currency": "EUR",
+        "account_currency": "EUR",
+        "fx": 1.0,
+        "fees": 2.0,
+        "spread_buffer_pct": 0.05,
+        "max_loss_instrument": 28.90
+      }
+    }
+  ]
+}

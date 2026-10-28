@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "daytrader-skill",
+  "description": "Deutsche Daytrading-Skills für Claude: XETRA zuerst, US auf Wunsch, nichts handelt ohne dein Ja.",
+  "owner": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "plugins": [
+    {
+      "name": "daytrader-skill",
+      "description": "Elf Claude-Skills fürs Daytrading auf Deutsch: Chart-Scanner, News und Ad-hoc-Mitteilungen, Einstiegs-Timer, Ausstiegsplan, Zeitmaschine mit 10.000 Durchläufen, Risiko-Manager, Budget-Manager, Order-Ticket (Paper als Standard, manuell für Neobroker), Kursalarme, Quartalszahlen und ein Directors'-Dealings-Tracker.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

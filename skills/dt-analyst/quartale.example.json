@@ -1,0 +1,104 @@
+{
+  "symbol": "SAP.DE",
+  "name": "SAP SE",
+  "isin": "DE0007164600",
+  "currency": "EUR",
+  "quarters": [
+    {
+      "period_end": "2026-09-30",
+      "period": "Q3 2026",
+      "revenue": 10270000000,
+      "gross_profit": 7510000000,
+      "operating_income": 2930000000,
+      "net_income": 2249000000,
+      "eps_diluted": 1.94,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q3-statement.pdf",
+      "page": "S. 8",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2026-06-30",
+      "period": "Q2 2026",
+      "revenue": 9878000000,
+      "gross_profit": 7228000000,
+      "operating_income": 2643000000,
+      "net_income": 2180000000,
+      "eps_diluted": 1.88,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q2-statement.pdf",
+      "page": "S. 8",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2026-03-31",
+      "period": "Q1 2026",
+      "revenue": 9555000000,
+      "gross_profit": 6973000000,
+      "operating_income": 2741000000,
+      "net_income": 1932000000,
+      "eps_diluted": 1.65,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q1-statement.pdf",
+      "page": "S. 7",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2025-12-31",
+      "period": "Q4 2025",
+      "revenue": 9684000000,
+      "gross_profit": 7044000000,
+      "operating_income": 2554000000,
+      "net_income": 1846000000,
+      "eps_diluted": 1.57,
+      "source": "https://www.sap.com/docs/download/investors/2025/sap-2025-q4-statement.pdf",
+      "page": "S. 11",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2025-09-30",
+      "period": "Q3 2025",
+      "revenue": 9076000000,
+      "gross_profit": 6671000000,
+      "operating_income": 2487000000,
+      "net_income": 2004000000,
+      "eps_diluted": 1.71,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q3-statement.pdf",
+      "page": "S. 8",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2025-06-30",
+      "period": "Q2 2025",
+      "revenue": 9027000000,
+      "gross_profit": 6620000000,
+      "operating_income": 2456000000,
+      "net_income": 1697000000,
+      "eps_diluted": 1.44,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q2-statement.pdf",
+      "page": "S. 8",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2025-03-31",
+      "period": "Q1 2025",
+      "revenue": 9013000000,
+      "gross_profit": 6607000000,
+      "operating_income": 2333000000,
+      "net_income": 1780000000,
+      "eps_diluted": 1.51,
+      "source": "https://www.sap.com/docs/download/investors/2026/sap-2026-q1-statement.pdf",
+      "page": "S. 7",
+      "basis": "IFRS"
+    },
+    {
+      "period_end": "2024-12-31",
+      "period": "Q4 2024",
+      "revenue": 9377000000,
+      "gross_profit": 6943000000,
+      "operating_income": 2016000000,
+      "net_income": 1601000000,
+      "eps_diluted": 1.36,
+      "source": "https://www.sap.com/docs/download/investors/2025/sap-2025-q4-statement.pdf",
+      "page": "S. 11",
+      "basis": "IFRS"
+    }
+  ]
+}

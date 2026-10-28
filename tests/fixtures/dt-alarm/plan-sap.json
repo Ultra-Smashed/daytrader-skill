@@ -1,0 +1,31 @@
+{
+  "created_by": "dt-ausstieg",
+  "symbol": "SAP.DE",
+  "side": "buy",
+  "date": "2026-10-27",
+  "market": "xetra",
+  "currency": "EUR",
+  "setup": "orb",
+  "entry": 214.9,
+  "entry_time": "10:55",
+  "entry_bar": 22,
+  "interval": "5m",
+  "opening_range": {
+    "high": 214.75,
+    "low": 211.7,
+    "minutes": 15
+  },
+  "stop": 213.22,
+  "stop_rule": "or_mid",
+  "stop_label": "Mitte der Opening Range",
+  "target": 216.58,
+  "target_r": 1.0,
+  "target_label": "1R über dem Einstieg",
+  "risk_per_share": 1.68,
+  "reward_risk": 1.0,
+  "flat_by": "17:25",
+  "stop_detail": "(214,75 € + 211,70 €) / 2 = 213,225 €, abgerundet",
+  "created_at": "2026-10-27T09:56:00Z",
+  "note": "Ein Stop ist ein Plan, keine Garantie: eine Kurslücke oder ein schneller Markt kann darüber hinaus ausführen.",
+  "broker_note": "Der Stop gehört als Stop-Order zu deinem Broker, nicht nur in diesen Plan. Viele Neobroker kennen keine Bracket- oder OCO-Order: dann legst du nach dem Kauf den Stop beim Broker an und lässt das Ziel per /dt-alarm beobachten."
+}

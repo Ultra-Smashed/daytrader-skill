@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {"id": "opening-bell", "type": "opening_bell", "market": "xetra"},
+    {"id": "sap.de-plan-stop", "symbol": "SAP.DE", "type": "stop", "price": 213.22, "note": "Plan-Stop: Mitte der Opening Range", "date": "2026-10-27"},
+    {"id": "sap.de-plan-target", "symbol": "SAP.DE", "type": "target", "price": 216.58, "note": "Plan-Ziel: 1R über dem Einstieg", "date": "2026-10-27"},
+    {"id": "sap.de-flat-by", "symbol": "SAP.DE", "type": "time", "at": "17:25", "label": "Glattstellen vor Handelsschluss", "before_close": true, "date": "2026-10-27"},
+    {"id": "sap.de-move-3", "symbol": "SAP.DE", "type": "pct_move", "pct": 3},
+    {"id": "opening-bell-us", "type": "opening_bell", "market": "us"},
+    {"id": "tsla-plan-stop", "symbol": "TSLA", "type": "stop", "price": 358.32, "note": "Plan-Stop: Mitte der Opening Range", "date": "2026-10-19"},
+    {"id": "tsla-plan-target", "symbol": "TSLA", "type": "target", "price": 370.04, "note": "Plan-Ziel: 1R über dem Einstieg", "date": "2026-10-19"},
+    {"id": "tsla-flat-by", "symbol": "TSLA", "type": "time", "at": "15:55", "label": "Glattstellen vor Handelsschluss", "before_close": true, "date": "2026-10-19"},
+    {"id": "tsla-move-3", "symbol": "TSLA", "type": "pct_move", "pct": 3}
+  ]
+}

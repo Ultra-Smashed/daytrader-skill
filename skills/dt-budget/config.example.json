@@ -1,0 +1,32 @@
+{
+  "market": "xetra",
+  "account_currency": "EUR",
+  "budget": 5000,
+  "cash_buffer_pct": 10,
+  "max_position_pct": 75,
+  "max_order": 4000,
+  "min_order": 50,
+  "max_loss_per_trade": 50,
+  "max_daily_loss": 150,
+  "max_trades_per_day": 3,
+  "max_orders_per_day": 10,
+  "min_reward_risk": 1.0,
+  "require_stop": true,
+  "fee_per_order": 1.0,
+  "spread_buffer_pct": 0.05,
+  "fx": {},
+  "zeiten": {
+    "xetra": {"no_entries_before": "09:15", "no_entries_after": "17:00", "flat_by": "17:25"},
+    "us": {"no_entries_before": "09:45", "no_entries_after": "15:30", "flat_by": "15:55"}
+  },
+  "fractional": false,
+  "broker": "manuell",
+  "paper": true,
+  "blocked": [],
+  "allow_options": false,
+  "allow_margin": false,
+  "allow_short": false,
+  "pdt_guard": false,
+  "trade_frequency_warning": 40,
+  "sec_user_agent": "Dein Name du@example.com"
+}
