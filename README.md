@@ -20,16 +20,25 @@ Dies ist die deutsche Fassung von [github.com/Jakeschincariol/day-trader-skill](
 
 ## Installation
 
-Als Plugin in Claude Code:
+Füg das in Claude ein:
 
 ```
-/plugin marketplace add /pfad/zu/daytrader-skill
+https://github.com/Ultra-Smashed/daytrader-skill
+
+installiere den Skill
+```
+
+Oder als Plugin in Claude Code:
+
+```
+/plugin marketplace add Ultra-Smashed/daytrader-skill
 /plugin install daytrader-skill@daytrader-skill
 ```
 
 Als Plugin heißen die Skills dann `/daytrader-skill:dt-scanner` und so weiter. Wenn du lieber kurz `/dt-scanner` tippst, kopier die Ordner:
 
 ```bash
+git clone https://github.com/Ultra-Smashed/daytrader-skill.git
 cp -r daytrader-skill/skills/dt-* ~/.claude/skills/
 ```
 
@@ -121,7 +130,7 @@ python3 skills/dt-insider/insider.py index --woche --art kauf        # Directors
 python3 -m unittest discover -s tests -v
 ```
 
-Die Tests laufen offline auf Ausschnitten echter Daten: XETRA-Kerzen aller DAX-Werte vom 22. bis 28.10.2026, 60 Tage SAP-Kerzen, die Deutsche-Börse-Instrumentenliste, der Ad-hoc-Feed und BaFin-Exporte vom 28.10.2026, SAPs Quartalsmitteilungen sowie die US-Daten des Originals (TSLA am 19.10.2026, SEC-XBRL). Sie bilden jede Zahl im Beispiel oben nach.
+Die Tests laufen offline auf Ausschnitten echter Daten: XETRA-Kerzen aller DAX-Werte vom 22. bis 28.10.2026, 60 Tage SAP-Kerzen, die Deutsche-Börse-Instrumentenliste, der Ad-hoc-Feed und BaFin-Exporte vom 28.10.2026, SAPs Quartalsmitteilungen sowie die US-Daten des Originals (TSLA am 19.10.2026, SEC-XBRL). Sie bilden die Zahlen im Beispiel oben nach (`tests/test_beispiel.py` spielt die SAP-Kette durch).
 
 ## Kleingedrucktes
 

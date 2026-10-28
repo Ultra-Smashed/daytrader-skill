@@ -6,6 +6,23 @@
     "name": "Christopher Thanisch",
     "url": "https://thanisch.co"
   },
+  "homepage": "https://thanisch.co",
+  "repository": "https://github.com/Ultra-Smashed/daytrader-skill",
   "license": "MIT",
-  "keywords": ["daytrading", "xetra", "dax", "deutsch", "backtesting", "directors-dealings", "paper-trading", "claude-skills"]
+  "keywords": [
+    "daytrading",
+    "trading",
+    "xetra",
+    "dax",
+    "boerse",
+    "aktien",
+    "deutsch",
+    "risk-management",
+    "position-sizing",
+    "backtesting",
+    "directors-dealings",
+    "bafin",
+    "paper-trading",
+    "claude-skills"
+  ]
 }
